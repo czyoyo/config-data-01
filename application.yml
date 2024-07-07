@@ -57,11 +57,10 @@ logging:
       file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}.%i.log
 
 
-jwt:
-  header: Authorization
+token:
   refresh-token-header: RefreshToken
   roles: roles
   secret: aG5nc2lodDM4N3locndzYW9ocmY4OWFyeWhnM3c5Z3Izd3E4eXI4dzN5aHJvOXczcg==
-  access-token-validity-in-seconds: 10800000 # 3?? ?????
-  refresh-token-validity-in-seconds: 259200000 # 3? ?????
+  access-token-expiration: 10800000 # 3?? ?????
+  refresh-token-expiration: 259200000 # 3? ?????
 
