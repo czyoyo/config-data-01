@@ -1,4 +1,8 @@
+server:
+  port: 8080
+
 spring:
+
   sql:
     init:
       mode: never # always, never, embedded 더미 데이터를 넣을 때 사용(개발할 때만 사용)
