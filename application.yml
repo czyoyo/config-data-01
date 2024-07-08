@@ -7,7 +7,7 @@ spring:
 
   security:
     user:
-      name: admin2
+      name: admin
       password: 1234
 
   data:
