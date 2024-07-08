@@ -13,9 +13,9 @@ spring:
     defer-datasource-initialization: false # 더미 데이터를 넣을 때 사용(개발할 때만 사용)
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dev_reference?useSSL=false&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
-    username: dev_user
-    password: dev_user@2024
+    url: jdbc:mysql://localhost:3306/reference?useSSL=false&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    username: user
+    password: user2024@
   servlet:
     multipart:
       location: C:/reference/backend/upload
